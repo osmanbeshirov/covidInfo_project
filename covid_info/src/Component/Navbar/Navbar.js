@@ -8,11 +8,11 @@ class Navbar extends Component {
     render() {
         return (
             <React.Fragment>
-                <nav  class="navbar navbar-expand-lg">
+                <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" >
                             <a class="navbar-brand" href="#">
-                                <img src={logo} width='110'/>
+                                <img src={logo} width='110' />
                             </a>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">

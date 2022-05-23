@@ -1,34 +1,45 @@
-nav{
+
+
+nav {
     background-color: #00A7CC;
+    
 }
 
-.phones{
+.phones {
     margin-left: 10px;
     color: #000;
 }
 
-.rightSection a{
+.rightSection a {
     text-decoration: none;
 }
 
-.rightSection{
+.rightSection {
     margin-right: 70px;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-left: 30px;
     margin-right: 70px;
 }
-.nav-item{
+
+.nav-item {
     margin-right: 20px;
+
+
 }
 
-.nav-item a{
-    color: #fff
+.nav-link {
+    border-radius: 10px;
 }
-.nav-item a:hover{
+
+.nav-item a {
+    color: #fff;
+    transition: 700ms;
+}
+
+.nav-item a:hover {
     color: rgb(61, 116, 150);
     background-color: rgb(255, 249, 249);
-    border-radius: 10px;
-    
+
 }

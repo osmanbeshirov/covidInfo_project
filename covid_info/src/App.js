@@ -5,7 +5,7 @@ import Navbar from './Component/Navbar/Navbar';
 
 function App() {
   return (
-    <React.Fragment>
+    <React.Fragment className = 'app'>
       <Navbar/>
 
     </React.Fragment>
