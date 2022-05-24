@@ -9,7 +9,7 @@ class Statistics extends Component {
             <React.Fragment>
                 <div className='statMain'>
                     <div className='statHeader'>
-                        <h1>Statistika</h1>
+                        <h1>{this.props.header}</h1>
                     </div>
 
                     <div className='stats'>
