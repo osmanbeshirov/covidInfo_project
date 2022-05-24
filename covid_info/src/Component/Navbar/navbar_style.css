@@ -1,7 +1,8 @@
-
 nav {
-    background-color: #00A7CC;
-    
+    /* background-color: #00A7CC; */
+    background-color: #1158b5b9;
+    height: 80px;
+
 }
 
 .phones {
@@ -11,10 +12,24 @@ nav {
 
 .rightSection a {
     text-decoration: none;
+    font-weight: 600;
 }
 
 .rightSection {
     margin-right: 70px;
+    background-color: rgb(213, 219, 213);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 800ms;
+}
+
+.rightSection:hover {
+    background-color: rgb(237, 226, 27);
+    cursor: pointer;
+}
+
+.rightSection img {
+    background-color: transparent;
 }
 
 .navbar-brand {
@@ -22,10 +37,12 @@ nav {
     margin-right: 70px;
 }
 
+.navbar-brand img {
+    margin-left: 10px;
+}
+
 .nav-item {
     margin-right: 20px;
-
-
 }
 
 .nav-link {

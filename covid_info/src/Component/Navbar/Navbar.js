@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import logo from '../Navbar/nav_photos/logo.jpg';
 import phone from './nav_photos/telephone.png'
+
+import covidLogo from './nav_photos/covidLogo.png'
+import emblem from './nav_photos/emblem.png'
+
+import call from './nav_photos/call.png'
+
+import call2 from './nav_photos/phone-call.png'
 import "../Navbar/navbar_style.css";
 
 
@@ -12,7 +19,7 @@ class Navbar extends Component {
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" >
                             <a class="navbar-brand" href="#">
-                                <img src={logo} width='110' />
+                                <img src={emblem} width='200'/>
                             </a>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -30,7 +37,7 @@ class Navbar extends Component {
                             </ul>
                             <div className='rightSection'>
                                 <a href='#'>
-                                    <img src={phone} width='30'></img>
+                                    <img src={call2} width='30'></img>
                                     <span className='phones'>Qaynar xətlər</span>
                                 </a>
                             </div>
