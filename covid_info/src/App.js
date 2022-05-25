@@ -16,8 +16,6 @@ function App() {
       <Vaccination header = 'Vaksinasiya mərkəzləri'/>
 
       
-
-
     </React.Fragment>
   );
 }

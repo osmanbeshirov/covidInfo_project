@@ -33,17 +33,17 @@ class Vaccination extends Component {
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                    <td>@mdo</td>
+                                    <td>Bakı sağlamlıq mərkəzi (Pfizer)</td>
+                                    <td>Özəl</td>
+                                    <td>Bakı, Azadlıq 112</td>
+                                    <td>(+99412) 440-00-57</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td scop="row">Larry the Bird</td>
-                                    <td>@twitter</td>
-                                    <td>@fat</td>
-                                    <td>@mdo</td>
+                                    <td scop="row">Bakı mərkəzi klinika (Pfizer)</td>
+                                    <td>Özəl</td>
+                                    <td>Səbail rayonu, Zərifə Əliyeva küç. 5</td>
+                                    <td>(+99412) 492-10-92</td>
                                 </tr>
                                 <tr>
                                     <th scope="row">4</th>

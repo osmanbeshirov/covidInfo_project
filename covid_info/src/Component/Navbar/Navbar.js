@@ -19,7 +19,7 @@ class Navbar extends Component {
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" >
                             <a class="navbar-brand" href="#">
-                                <img src={emblem} width='200'/>
+                                <img src={emblem} width='200' />
                             </a>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
@@ -35,12 +35,51 @@ class Navbar extends Component {
                                     <a class="nav-link" href='#'>Mühüm məlumatlar</a>
                                 </li>
                             </ul>
-                            <div className='rightSection'>
+                            <div className='rightSection' data-toggle='modal' data-target='#modal'>
                                 <a href='#'>
                                     <img src={call2} width='30'></img>
                                     <span className='phones'>Qaynar xətlər</span>
                                 </a>
                             </div>
+
+                            <div className='modal' id='modal'>
+                                <div className='modal-dialog modal-lg'>
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h3 class="modal-title">QAYNAR XƏTLƏR!</h3>
+                                            <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div>
+                                                <p className='consept-title'>AZƏRBAYCAN RESPUBLİKASI NAZİRLƏR KABİNETİ YANINDA OPERATİV QƏRARGAH</p>
+                                                <p className='consept-context'>
+                                                    <a href='#'>Telefon: (+994 12) 492-41-61,</a>
+                                                    <a href='#'>(+994 12) 492-75-54,</a>  <br></br>
+                                                    <a href='#'>(+994 12) 505-03-30</a> </p>
+                                            </div>
+                                            <div>
+                                                <p className='consept-title'>AZƏRBAYCAN RESPUBLİKASI XARİCİ İŞLƏR NAZİRLİYİNİN QAYNAR XƏTTİ</p>
+                                                <p className='consept-context'> <a href='#'>Telefon:(+994 12) 596-94-49</a> </p>
+
+                                            </div>
+
+                                            <div>
+                                                <p className='consept-title'>TƏCİLİ TİBBİ YARDIM</p>
+                                                <p className='consept-context'> <a href='#'>Telefon: 103</a></p>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bağla</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
                         </div>
                     </div>
                 </nav>
