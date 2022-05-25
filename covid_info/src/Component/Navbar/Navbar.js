@@ -5,14 +5,34 @@ import phone from './nav_photos/telephone.png'
 import covidLogo from './nav_photos/covidLogo.png'
 import emblem from './nav_photos/emblem.png'
 
-import call from './nav_photos/call.png'
+
+import call from './nav_photos/phone.png'
 
 import call2 from './nav_photos/phone-call.png'
 import "../Navbar/navbar_style.css";
 
 
 class Navbar extends Component {
+    state = {
+        isActive: true
+    }
+
+    closeModal = () => {
+        const modal = document.querySelector('.modal');
+
+        if (this.state.isActive === true) {
+            this.setState({ isActive: !this.state.isActive })
+            modal.style.display = "none";
+            console.log('baglandi')
+        }
+
+
+        console.log(modal)
+    }
+
     render() {
+
+
         return (
             <React.Fragment>
                 <nav class="navbar navbar-expand-lg">
@@ -47,7 +67,7 @@ class Navbar extends Component {
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             <h3 class="modal-title">QAYNAR XƏTLƏR!</h3>
-                                            <button type="button" class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>
+                                            <button type="button" onClick={this.closeModal} class="btn-close" aria-label="Close" data-bs-dismiss="modal"></button>
                                         </div>
                                         <div class="modal-body">
                                             <div>
@@ -68,10 +88,18 @@ class Navbar extends Component {
                                                 <p className='consept-context'> <a href='#'>Telefon: 103</a></p>
                                             </div>
 
+                                            <div className='last-context'>
+                                                <img src={call} width='80' height='80' />
+                                                <div>
+                                                    <p className='consept-title'>İCBARİ TİBBİ SIĞORTA ÜZRƏ DÖVLƏT AGENTLİYİ</p>
+                                                    <p className='consept-context'> <a href='#'>ÇAĞRI MƏRKƏZİ: 1542</a></p>
+                                                </div>
+                                            </div>
+
                                         </div>
-                                        <div class="modal-footer">
+                                        {/* <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bağla</button>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
