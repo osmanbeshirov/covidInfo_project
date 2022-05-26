@@ -61,7 +61,8 @@ nav {
     background-color: rgb(255, 249, 249);
 
 }
-.modal-content{
+
+.modal-content {
     background-color: rgb(188, 194, 192);
 }
 
@@ -74,11 +75,11 @@ nav {
     padding-bottom: 0;
 }
 
-.modal-body div:nth-child(1){
+.modal-body div:nth-child(1) {
     margin-bottom: 40px;
 }
 
-.modal-body div:nth-child(2){
+.modal-body div:nth-child(2) {
     margin-bottom: 40px;
 }
 
@@ -90,7 +91,7 @@ nav {
     color: grey;
 }
 
-.modal-body .consept-context a{
+.modal-body .consept-context a {
     font-size: 22px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -103,23 +104,22 @@ nav {
     color: red;
 }
 
-.last-context{
+.last-context {
     display: flex;
     margin-top: 40px;
-    
+
 }
 
-.last-context .consept-title{
+.last-context .consept-title {
     color: black !important;
     font-size: 20px;
 
 }
 
-.last-context .consept-context a{
+.last-context .consept-context a {
     color: red !important;
 }
 
-.last-context div{
+.last-context div {
     margin-left: 40px;
 }
-

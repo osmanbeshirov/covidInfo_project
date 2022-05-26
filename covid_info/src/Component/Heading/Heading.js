@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import logo3 from './photos/arrow-27-35.png'
 
+import {Link} from 'react-router-dom'
+
 import '../Heading/heading.css'
 
 class Heading extends Component {
@@ -14,7 +16,9 @@ class Heading extends Component {
                         <p>Hər keçən gün sağlam həyata bir addım daha yaxınlaşırıq.
                             Pandemiyaya təmamilə qalib gəlmək üçün hər birimiz peyvənd olunmalıyıq.</p>
 
-                            <button type="button" class="btn btn-primary btn-lg"><img src={logo3} width='35'/> Vaksinasiya mərkəzləri</button>
+                        <Link to='/vaccine_stations'>
+                            <button type="button" class="btn btn-primary btn-lg"><img src={logo3} width='35' />Vaksinasiya mərkəzləri</button>
+                        </Link>
                     </div>
                 </div>
             </React.Fragment>

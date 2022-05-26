@@ -10,6 +10,7 @@ import call from './nav_photos/phone.png'
 
 import call2 from './nav_photos/phone-call.png'
 import "../Navbar/navbar_style.css";
+import { Link } from 'react-router-dom';
 
 
 class Navbar extends Component {
@@ -39,20 +40,25 @@ class Navbar extends Component {
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" >
                             <a class="navbar-brand" href="#">
-                                <img src={emblem} width='200' />
+                                <Link to='main_page'> <img src={emblem} width='200' /></Link>
                             </a>
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Statistika</a>
+                                    {/* <a class="nav-link" href="#"> </a> */}
+                                    <Link className='link nav-link' to='/statistics'>Statistika</Link>
+
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Vaksinasiya</a>
+                                    <Link className='link nav-link' to='/vaccine_stations'>Vaksinasiya</Link>
+                                    {/* <a class="nav-link" href="#">Vaksinasiya</a> */}
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href='#'>Xəbərlər</a>
+                                    <Link className='link nav-link' to='/news'>Xəbərlər</Link>
+                                    {/* <a class="nav-link" href='#'>Xəbərlər</a> */}
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href='#'>Mühüm məlumatlar</a>
+                                    <Link className='link nav-link' to='/infos'>Mühüm məlumatlar</Link>
+                                    {/* <a class="nav-link" href='#'>Mühüm məlumatlar</a> */}
                                 </li>
                             </ul>
                             <div className='rightSection' data-toggle='modal' data-target='#modal'>

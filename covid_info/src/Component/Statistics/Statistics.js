@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import aze from './photos/azerbaijan.png';
 
+import {Link} from 'react-router-dom'
+
 import '../Statistics/statistics.css'
 
 class Statistics extends Component {
@@ -26,7 +28,9 @@ class Statistics extends Component {
                                 </div>
                             </div>
                             <div class="card text-bg-light mb-3">
-                                <div class="card-header">Yeni yoluxan</div>
+                                <div class="card-header"> 
+                                <Link className='infected' to='/infected'>Yeni yoluxan</Link>
+                                 </div>
                                 <div class="card-body">
                                     <h3 className='card-title'>2</h3>
                                 </div>
