@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Heading from '../Heading/Heading'
+import News from '../News/News'
 import Statistics from '../Statistics/Statistics'
 import Vaccination from '../Vaccination/Vaccination'
 
@@ -10,6 +11,7 @@ export default class Main extends Component {
                 <Heading/>
                 <Statistics header="Statistika" />
                 <Vaccination header="Vaksinasiya mərkəzləri" />
+                <News/>
             </React.Fragment>
         )
     }
