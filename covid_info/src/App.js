@@ -7,6 +7,8 @@ import Heading from './Component/Heading/Heading';
 import Infectioned from './Component/Infectioned/Infectioned';
 import Main from './Component/Main/Main';
 import Navbar from './Component/Navbar/Navbar';
+import Content from './Component/News/Content/Content';
+import News from './Component/News/News';
 import Statistics from './Component/Statistics/Statistics';
 import Vaccination from './Component/Vaccination/Vaccination';
 
@@ -23,6 +25,8 @@ function App() {
         <Route path='/statistics/*' element={<Statistics header="Statistika" />}></Route>
         <Route path='/vaccine_stations' element={<Vaccination header="Vaksinasiya mərkəzləri" />}></Route>
         <Route path='/infected' element={<Infectioned header='Yeni yoluxanlar' />}></Route>
+        <Route path='/news' element={<News/>}></Route>
+        <Route path="news/minister/id='1'" element={<Content/>}></Route>
       </Routes>
 
       <Footer/>

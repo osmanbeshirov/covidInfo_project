@@ -50,6 +50,10 @@
 
 }
 
+.category:nth-child(1) {
+    opacity: 1 !important;
+}
+
 .category:hover {
     opacity: 1;
     background-color: rgb(68, 175, 194);
@@ -59,13 +63,9 @@
 }
 
 
-
 .category h4 {
     font-size: 21px;
-
 }
-
-
 
 .row {
     padding-left: 50px;
@@ -85,7 +85,7 @@
 }
 
 .card .news-info {
-    height: 150px;
+    height: 180px;
     color: #000;
 
 }
