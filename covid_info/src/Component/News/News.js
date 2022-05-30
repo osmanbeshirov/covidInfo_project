@@ -27,7 +27,7 @@ export default class News extends Component {
                 </div>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
-                        <Link className='routLink' to="minister/id='1' ">
+                        <Link className='routLink' to="/news/minister/id='1' ">
                             <div class="card">
                                 <img src={minister} class="card-img-top" alt={minister} />
                                 <div class="card-body news-info">

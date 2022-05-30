@@ -29,7 +29,7 @@ class Statistics extends Component {
                             </div>
                             <div class="card text-bg-light mb-3">
                                 <div class="card-header"> 
-                                <Link className='infected' to='/infected'>Yeni yoluxan</Link>
+                                <Link className='infected' to='/statistics/infected'>Yeni yoluxan</Link>
                                  </div>
                                 <div class="card-body">
                                     <h3 className='card-title'>2</h3>

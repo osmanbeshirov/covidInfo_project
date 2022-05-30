@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './Component/Footer/Footer';
 import Heading from './Component/Heading/Heading';
 import Infectioned from './Component/Infectioned/Infectioned';
+import Infos from './Component/Infos/Infos';
 import Main from './Component/Main/Main';
 import Navbar from './Component/Navbar/Navbar';
 import Content from './Component/News/Content/Content';
@@ -24,12 +25,13 @@ function App() {
         <Route path='/main_page' element={<Main />}> </Route>
         <Route path='/statistics/*' element={<Statistics header="Statistika" />}></Route>
         <Route path='/vaccine_stations' element={<Vaccination header="Vaksinasiya mərkəzləri" />}></Route>
-        <Route path='/infected' element={<Infectioned header='Yeni yoluxanlar' />}></Route>
-        <Route path='/news' element={<News/>}></Route>
-        <Route path="news/minister/id='1'" element={<Content/>}></Route>
+        <Route path='/statistics/infected' element={<Infectioned header='Yeni yoluxanlar' />}></Route>
+        <Route path='/news' element={<News />}></Route>
+        <Route path="/news/minister/id='1'" element={<Content />}></Route>
+        <Route path='/infos' element={<Infos />}></Route>
       </Routes>
 
-      <Footer/>
+      <Footer />
 
 
 
