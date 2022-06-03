@@ -9,11 +9,11 @@ export default class Main extends Component {
     render() {
         return (
             <React.Fragment>
-                <Heading/>
+                <Heading />
                 <Statistics header="Statistika" />
                 <Vaccination header="Vaksinasiya mərkəzləri" />
-                <News/>
-                <Infos/>
+                <News />
+                <Infos />
             </React.Fragment>
         )
     }
