@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+nav {
+    /* background-color: #00A7CC; */
+    background-color: #1158b5b9;
+    height: 80px;
+
+}
+
+.phones {
+    margin-left: 10px;
+    color: #000;
+}
+
+.rightSection a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.rightSection {
+    margin-right: 70px;
+    background-color: rgb(213, 219, 213);
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 800ms;
+}
+
+.rightSection:hover {
+    background-color: rgb(237, 226, 27);
+    cursor: pointer;
+}
+
+.rightSection img {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+.navbar-brand img {
+    margin-left: 10px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    border-radius: 10px;
+}
+
+.nav-item a {
+    color: #fff;
+    transition: 700ms;
+}
+
+.nav-item a:hover {
+    color: rgb(61, 116, 150);
+    background-color: rgb(255, 249, 249);
+
+}
+
+.modal-content {
+    background-color: rgb(188, 194, 192);
+}
+
+.modal-title {
+    margin-left: 35%;
+}
+
+.modal-body {
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.modal-body div:nth-child(1) {
+    margin-bottom: 40px;
+}
+
+.modal-body div:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+
+.modal-body .consept-title {
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+}
+
+.modal-body .consept-context a {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    transition: 700ms;
+    text-decoration: none;
+    color: black;
+}
+
+.consept-context a:hover {
+    color: red;
+}
+
+.last-context {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.last-context .consept-title {
+    color: black !important;
+    font-size: 20px;
+
+}
+
+.last-context .consept-context a {
+    color: red !important;
+}
+
+.last-context div {
+    margin-left: 40px;
+}
